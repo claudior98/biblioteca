@@ -6,7 +6,7 @@ const app = express()
 const port = 4000
 
 app.get('/', (req, res) => {
-    res.send("Morri, tem pao no zeu")
+    res.send("Rodando")
 })
 
 app.use(bodyParser.urlencoded({ extended: false }))
